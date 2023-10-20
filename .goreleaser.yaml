@@ -59,9 +59,9 @@ brews:
     #
     # Since: v1.20 (pro)
     # Templates: allowed
-    alternative_names:
-      - myproject@{{ .Version }}
-      - myproject@{{ .Major }}
+    # alternative_names:
+    #   - myproject@{{ .Version }}
+    #   - myproject@{{ .Major }}
 
     # IDs of the archives to use.
     # Empty means all IDs.
